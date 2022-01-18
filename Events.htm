@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sosial Network</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <style>
+            #menu li:hover {
+                background: rgba(135, 206, 250, 0.2) ;
+            }
+            #menu a {white-space: nowrap;} 
+            li.material-icons {
+                vertical-align:middle;
+                padding:7px;
+            }
+			.time{
+				padding-right:5px;
+				color: #808080;
+				}
+			.icons{color: #808080;}
+			
+            span.badge {min-width: 0}
+            
+            .small { font-size: 1.2rem!important; padding: 0!important}
+
+            .collection { border: 0;} 
+            .collection-item { margin: 1rem 0!important; border: 1px solid #e0e0e0 }
+			#btns{display: flex;}
+			.fuad{
+				padding:0 0 0 20px;
+				filex-direction: row;
+				justify-content: space-between;
+				}
+            @media only screen and (min-width: 768px) {
+                .mainrow { padding: 0 50px; }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="blue darken-4">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#" class="brand-logo left">SN</a>
+                        <div class="right">
+                            <img src="img/av_64.png" alt="" class="left responsive-img ">
+                            <span class="">Luella Hubbart</span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <div class="row mainrow">
+                    <div class="col m3 l2">
+                            <ul id="menu">
+                                <li>
+                                    <a href="profile.htm">
+                                        <i class="material-icons">assignment_ind</i>
+                                        My Profile
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="news.htm">
+                                        <i class="material-icons">chrome_reader_mode</i>
+                                        News
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="messages.htm">
+                                        <i class="material-icons">email</i>
+                                        Messages
+                                        <span class="new badge blue darken-4" data-badge-caption="">4</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="friends.htm">
+                                        <i class="material-icons">face</i>
+                                        Friends
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="events.htm">
+                                        <i class="material-icons">event_available</i>
+                                        Events
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="media.htm">
+                                        <i class="material-icons">image</i>
+                                        Media
+                                    </a>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="col m9 l10">
+                        <div class="row">
+                            <div class="col m6"><h4>EVENTS</h4></div>
+                            <div class="col m6 right-align">
+                                <div class="input-field">
+                                    <input id="last_name" type="text" class="validate col s7 l9 ">
+                                    <label for="last_name">Search</label>
+									<div id="btns">
+										<span class="col s8 "><a class="btn-floating blue darken-4 "><i class="small material-icons ">search</i></a></span>
+										<span class="col s10 "><a class="btn-floating blue darken-4"><i class="small material-icons">add</i></a></span>
+									</div>	
+                                </div>
+								
+								
+                            </div> 
+                        </div>
+						<div class="row">
+							<div class="col s12 m9 l12">
+								<div class="card">
+									<div class="card-image">
+										<img src="img/sekil9.jpg">
+										<span class="card-title"></span>
+									</div>
+									<div class="card-content">
+										<i class="small material-icons icons">access_time</i><a class="time">10:00 AM</a>
+										<i class="small material-icons icons">date_range</i><a class="time">September 4,2019</a>
+										<i class="small material-icons icons">location_on</i><a class="time">New Orleans</a>
+										<p>I am a very simple card. I am good at containing small bits of information.
+										markup to use effectively  I am good at containing small bits of information.</p>
+									</div>
+									<div class="card-content right-align z-depth-1">
+										<p><a href="#">DETAILS</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m9 l12">
+								<div class="card">
+									<div class="card-image">
+										<img src="img/sekil10.jpg">
+										<span class="card-title"></span>
+									</div>
+									<div class="card-content">
+										<i class="small material-icons icons">access_time</i><a class="time">7:00 PM</a>
+										<i class="small material-icons icons">date_range</i><a class="time">September 24,2019</a>
+										<i class="small material-icons icons">location_on</i><a class="time">New Orleans</a>
+										<p>I am a very simple card. I am good at containing small bits of information.
+										markup to use effectively  I am good at containing small bits of information.</p>
+									</div>
+									<div class="card-content right-align z-depth-1">
+										<p><a href="#">DETAILS</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m9 l12">
+								<div class="card">
+									<div class="card-image">
+										<img src="img/sekil11.jpg">
+										<span class="card-title"></span>
+									</div>
+									<div class="card-content">
+										<i class="small material-icons icons">access_time</i><a class="time">10:00 PM</a>
+										<i class="small material-icons icons">date_range</i><a class="time">October 30,2019</a>
+										<i class="small material-icons icons">location_on</i><a class="time">New Orleans</a>
+										<p>I am a very simple card. I am good at containing small bits of information.
+										markup to use effectively  I am good at containing small bits of information.</p>
+									</div>
+									<div class="card-content right-align z-depth-1">
+										<p><a href="#">DETAILS</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+        </main>
+        <footer></footer>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+</html>
